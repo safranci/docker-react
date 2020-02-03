@@ -16,7 +16,7 @@ deploy:
   region: "us-east-1"
   app: "react-container"
   env: "ReactContainer-env"
-  bucket_name: "elasticbeanstalk-us-east-1-245239899040" #common bucket for all apps in that region
+  bucket: "elasticbeanstalk-us-east-1-245239899040" #common bucket for all apps in that region
   bucket_path: "react-container" #will be same as app name
   on:
     branch: master #only deploy when the code is updated on master branch
