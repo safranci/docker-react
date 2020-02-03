@@ -12,7 +12,7 @@ script:
 
 deploy:
   edge: true
-  provide: elasticbeanstalk #aws, digitial ocean etc
+  provider: elasticbeanstalk #aws, digitial ocean etc
   region: "us-east-1"
   app: "react-container"
   env: "ReactContainer-env"
