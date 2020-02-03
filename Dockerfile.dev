@@ -1,0 +1,18 @@
+# existing docker image as base image
+FROM node:alpine
+
+#working dir
+WORKDIR /usr/app
+
+# Download and install dependencies
+COPY ./package.json ./
+RUN npm install
+
+# COPY rest of the source files
+COPY ./ ./
+
+# startup command
+CMD ["npm", "run", "start"]
+
+
+
