@@ -9,7 +9,7 @@ COPY ./package.json ./
 RUN npm install
 
 # COPY rest of the source files
-COPY . .
+COPY ./ ./
 
 # RUN build command
 CMD ["npm", "run", "build"]

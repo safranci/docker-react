@@ -8,8 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          Time for real test...
           Edited <code>src/App.js</code> and save to reload.
-          Time for real test! hahaha! it does
         </p>
         <a
           className="App-link"
